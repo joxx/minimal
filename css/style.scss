@@ -1,0 +1,29 @@
+@font-face {
+  font-family: Lora;
+  font-display: swap;
+	src:
+		url('../assets/lora.woff2') format('woff2');
+}
+
+body {
+  font-size: 1em;
+  font-family: 'Lora', 
+                -apple-system, BlinkMacSystemFont,
+               'avenir next', avenir,
+               'helvetica neue', helvetica,
+               ubuntu,
+               roboto, noto,
+               'segoe ui', arial,
+               sans-serif;;
+  color: #222;
+  text-align: center
+}
+
+.monkey {
+  margin: 64px auto;
+  max-width: 100px;
+  .fa-monkey {
+    width: 100%;
+  }
+}
+
