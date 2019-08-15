@@ -1,5 +1,31 @@
 {
+  "name": "minimal",
+  "description": "##To install with NPM:",
+  "version": "1.0.0",
+  "main": "index.js",
+  "dependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "parcel index.html",
+    "serve": "parcel serve index.html",
+    "build": "parcel build index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joxx/minimal.git"
+  },
+  "keywords": [
+    "parcel",
+    "boilerplate"
+  ],
+  "author": "Joachim Kliemann",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/joxx/minimal/issues"
+  },
+  "homepage": "https://github.com/joxx/minimal#readme",
   "devDependencies": {
+    "parcel-bundler": "^1.12.3",
     "sass": "^1.22.9"
   }
 }
