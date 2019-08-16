@@ -2,10 +2,22 @@
 
 A simple parcel boilerplate to create a small, speed optimized website
 
-![travis](https://travis-ci.org/joxx/minimal.svg?branch=master)
+[![Build Status](https://travis-ci.org/joxx/minimal.svg?branch=master)](https://travis-ci.org/joxx/minimal)
 
 **Install:**
 
 ```bash
 npm install
+```
+
+**Run:**
+
+```bash
+npm run serve
+```
+
+**Build:**
+
+```bash
+npm run build
 ```
