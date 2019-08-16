@@ -1,6 +1,8 @@
 # minimal
+A simple parcel boilerplate to create a small, speed optimized website
 
-### To install with NPM:
+**To install with NPM:**
 
-npm install parcel-bundler --save-dev
-
+```bash
+npm install
+```
