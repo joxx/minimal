@@ -1,5 +1,4 @@
 # minimal
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/joxx/minimal)
 
 A simple parcel boilerplate to create a small, speed optimized website
 
