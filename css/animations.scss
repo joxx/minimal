@@ -1,0 +1,21 @@
+.is-color-change {
+  animation: colorchange 5s infinite;
+}
+
+@keyframes colorchange {
+  0% {
+    color: orange;
+  }
+  25% {
+    color: yellowgreen;
+  }
+  50% {
+    color: brown;
+  }
+  75% {
+    color: red;
+  }
+  100% {
+    color: hotpink;
+  }
+}
