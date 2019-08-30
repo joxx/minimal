@@ -1,3 +1,3 @@
-import '/css/style.scss'
+import '../css/style.scss';
 
-console.log('hello, welcome to monkey mountain')
+// console.log('hello, welcome to monkey mountain')
