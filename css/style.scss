@@ -1,9 +1,9 @@
 @import 'animations.scss';
 
 @font-face {
+  src: url('../assets/lora.woff2') format('woff2');
   font-family: Lora;
   font-display: swap;
-  src: url('../assets/lora.woff2') format('woff2');
 }
 
 body {
@@ -18,7 +18,7 @@ body {
 .monkey {
   margin: 64px auto;
   max-width: 100px;
-  svg {
+  [data-icon="monkey"] {
     color: hotpink;
     width: 100%;
   }

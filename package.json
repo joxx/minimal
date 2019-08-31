@@ -3,7 +3,6 @@
   "description": "##To install with NPM:",
   "version": "1.0.0",
   "main": "index.js",
-  "dependencies": {},
   "scripts": {
     "dev": "rimraf dist && parcel index.html",
     "serve": "rimraf dist && parcel serve index.html",
@@ -25,6 +24,7 @@
   "homepage": "https://github.com/joxx/minimal#readme",
   "devDependencies": {
     "acorn": "^6.3.0",
+    "autoprefixer": "^9.6.1",
     "eslint": "^6.1.0",
     "eslint-config-airbnb": "^18.0.1",
     "eslint-config-prettier": "^6.1.0",
