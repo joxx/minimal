@@ -23,7 +23,7 @@
   },
   "homepage": "https://github.com/joxx/minimal#readme",
   "devDependencies": {
-    "acorn": "^6.3.0",
+    "acorn": "^6.4.1",
     "autoprefixer": "^9.6.1",
     "eslint": "^6.1.0",
     "eslint-config-airbnb": "^18.0.1",
