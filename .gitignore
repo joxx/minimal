@@ -5,5 +5,5 @@ node_modules
 .eslintcache
 .env
 .cache
-*.code-workspace
-.vscode
+.code-workspace
+minimal.code-workspace
