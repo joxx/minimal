@@ -2,7 +2,6 @@
 *.log
 dist
 node_modules
-.eslintcache
 .env
 .cache
 .code-workspace
