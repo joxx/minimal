@@ -6,7 +6,14 @@
   "scripts": {
     "dev": "rimraf dist && parcel index.html",
     "serve": "rimraf dist && parcel serve index.html",
-    "build": "rimraf dist && parcel build index.html --public-url ."
+    "build": "rimraf dist && parcel build index.html --public-url .",
+    "clean": "rm -rf dist .cache",
+    "style": "postcss src/css/style.tailwind.css --output src/css/style.css",
+    "watch:dev": "onchange 'src' -- npm run style",
+    "parcel:build": "parcel build src/index.html --public-url ./",
+    "parcel:serve": "parcel src/index.html --open",
+    "prod": "npm-run-all -s clean style parcel:build",
+    "watch": "npm-run-all -s clean -p watch:dev parcel:serve"
   },
   "repository": {
     "type": "git",
@@ -22,12 +29,16 @@
     "url": "https://github.com/joxx/minimal/issues"
   },
   "homepage": "https://github.com/joxx/minimal#readme",
-  "devDependencies": {
-    "autoprefixer": "^9.6.1",
-    "parcel-bundler": "^1.12.3",
+  "dependencies": {
+    "autoprefixer": "^9.7.6",
+    "npm-run-all": "^4.1.5",
+    "parcel-bundler": "^1.12.4",
     "parcel-plugin-static-files-copy": "^2.2.1",
-    "postcss-preset-env": "^6.7.0",
-    "rimraf": "^3.0.0",
-    "sass": "^1.26.10"
+    "postcss-cli": "^7.1.0",
+    "postcss-import": "^12.0.1",
+    "tailwindcss": "^1.7.3"
+  },
+  "devDependencies": {
+    "onchange": "^7.0.2"
   }
 }
