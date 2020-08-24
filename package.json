@@ -9,7 +9,7 @@
     "watch:dev": "onchange 'src' -e 'src/css/style.css' -- npm run style",
     "parcel:build": "parcel build src/index.html --public-url ./",
     "parcel:serve": "parcel src/index.html --open",
-    "prod": "npm-run-all -s clean style parcel:build",
+    "build": "npm-run-all -s clean style parcel:build",
     "watch": "npm-run-all -s clean -p watch:dev parcel:serve"
   },
   "staticFiles": {
