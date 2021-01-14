@@ -6,16 +6,15 @@
   "scripts": {
     "clean": "rm -rf dist .cache",
     "style": "postcss src/css/style.tailwind.css --output src/css/style.css",
-    "watch:dev": "onchange 'src' -e 'src/css/style.css' -- npm run style",
     "parcel:build": "parcel build src/index.html --public-url ./",
     "parcel:serve": "parcel src/index.html --open",
     "build": "npm-run-all -s clean style parcel:build",
-    "watch": "npm-run-all -s clean -p watch:dev parcel:serve"
+    "dev": "npm-run-all -s clean -p parcel:serve"
   },
   "staticFiles": {
     "staticPath": "src/static",
     "watcherGlob": "**"
-  },  
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/joxx/minimal.git"
