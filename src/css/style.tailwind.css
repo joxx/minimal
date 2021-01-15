@@ -1,0 +1,68 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+/* custom css */
+
+/* @font-face {
+  src: url('../assets/lora.woff2') format('woff2');
+  font-family: Lora;
+  font-display: swap;
+}
+
+body {
+  color: #222;
+  font-family: 'Lora', -apple-system, BlinkMacSystemFont, 'avenir next', avenir,
+    'helvetica neue', helvetica, ubuntu, roboto, noto, 'segoe ui', arial,
+    sans-serif;
+  font-size: 1em;
+  text-align: center;
+} */
+
+.monkey {
+  margin: 64px auto;
+  max-width: 100px;
+}
+
+.monkey [data-icon="monkey"] {
+  color: hotpink;
+  width: 100%;
+}
+
+::selection {
+  background: bisque;
+}
+
+.is-color-change {
+  animation: colorchange 5s infinite;
+}
+
+@keyframes colorchange {
+  0% {
+    color: orange;
+  }
+  24% {
+    color: orange;
+  }
+  25% {
+    color: yellowgreen;
+  }
+  49% {
+    color: yellowgreen;
+  }
+  50% {
+    color: brown;
+  }
+  74% {
+    color: brown;
+  }
+  75% {
+    color: red;
+  }
+  99% {
+    color: red;
+  }
+  100% {
+    color: hotpink;
+  }
+}
